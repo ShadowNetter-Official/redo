@@ -36,7 +36,7 @@ chmod +x target/release/redo
 ### 3. Install
 
 ```bash
-sudo cp target/release/redo /bin
+sudo cp target/release/redo ~/.cargo/bin/
 mkdir ~/.config/redo/
 touch ~/.config/redo/tasks.json
 ```

@@ -10,7 +10,7 @@ cd redo
 echo "done"
 echo "installing..."
 chmod +x redo
-sudo cp redo /bin/
+sudo cp redo ~/.cargo/bin/
 mkdir ~/.config/redo
 touch ~/.config/redo/tasks.json
 echo "done"
