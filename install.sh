@@ -10,10 +10,10 @@ cd redo
 echo "done"
 echo "installing..."
 chmod +x redo
-sudo cp redo ~/.cargo/bin/
+cp redo ~/.cargo/bin/
 mkdir ~/.config/redo
 touch ~/.config/redo/tasks.json
 echo "done"
 echo
-echo "to uninstall do: sudo rm /bin/redo"
+echo "to uninstall do: rm ~/.cargo/bin/"
 echo

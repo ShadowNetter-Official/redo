@@ -36,7 +36,7 @@ chmod +x target/release/redo
 ### 3. Install
 
 ```bash
-sudo cp target/release/redo ~/.cargo/bin/
+cp target/release/redo ~/.cargo/bin/
 mkdir ~/.config/redo/
 touch ~/.config/redo/tasks.json
 ```
@@ -54,7 +54,7 @@ touch ~/.config/redo/tasks.json
 You can remove redo with:
 
 ```bash
-sudo rm /bin/redo
+rm ~/.cargo/bin
 rm -r ~/.config/redo/
 ```
 
