@@ -15,5 +15,7 @@ mkdir ~/.config/redo
 touch ~/.config/redo/tasks.json
 echo "done"
 echo
-echo "to uninstall do: rm ~/.cargo/bin/"
+echo "to uninstall do: "
+echo "rm ~/.cargo/bin/redo"
+echo "rm -r ~/.config/redo"
 echo

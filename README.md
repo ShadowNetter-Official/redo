@@ -54,7 +54,7 @@ touch ~/.config/redo/tasks.json
 You can remove redo with:
 
 ```bash
-rm ~/.cargo/bin
+rm ~/.cargo/bin/redo
 rm -r ~/.config/redo/
 ```
 
